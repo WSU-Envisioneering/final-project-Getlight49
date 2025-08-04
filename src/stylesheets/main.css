@@ -1,1 +1,88 @@
-/* Your styles go here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1rem
+}
+
+.mainNav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+header{
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+h1{
+    padding-bottom: 1rem;
+}
+
+header p{
+    font-size: 1.1rem;
+    padding-bottom: 1.3rem;
+}
+
+main{
+
+}
+
+body{
+
+}
+
+footer{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footerNav{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+@media all and (min-width: 600px){
+    nav{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        align-items: center;
+    }
+    
+    nav > a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+    
+    .mainNav{
+        grid-column: 3/ span 1;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-right: 1rem;
+    }
+    
+
+}
