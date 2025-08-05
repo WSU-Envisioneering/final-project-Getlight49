@@ -1,7 +1,7 @@
 .lg-btn{
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     padding: 1rem 3rem;
     border-radius: .5rem;
@@ -16,7 +16,7 @@ main{
     "fig1 fig2";
 }
 img{
-    width: 100%;
+    width: 70%;
 }
 figure:nth-child(2){
     grid-area: fig1;
