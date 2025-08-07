@@ -46,7 +46,11 @@ main{
 }
 
 body{
-
+background-color: rgb(201, 211, 214);
+margin: 1em;
+}
+img{
+    border-radius: 2em;
 }
 
 footer{

@@ -1,1 +1,12 @@
-
+table{
+    background-color: rgb(225, 255, 196);
+    
+}
+th{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+}
+tr{
+    padding: 3px;
+}

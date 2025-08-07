@@ -1,1 +1,5 @@
-
+img{
+    float: left;
+    border-radius: 2em;
+    margin: 1em;
+}
